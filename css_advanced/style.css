@@ -259,3 +259,70 @@ body {
   color: #C271FF; /* or star icons color */
   font-size: 12px;
 }
+
+/* Membership Section */
+.membership {
+  background-color: #0b0e1f; /* dark background */
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.membership h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.membership h2 .highlight {
+  color: #bb6cf1; /* purple highlight for "Free" */
+}
+
+.membership .features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.membership .feature-item {
+  max-width: 180px;
+  text-align: center;
+}
+
+.membership .feature-item img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.membership .feature-item h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.membership .feature-item p {
+  font-size: 0.9rem;
+  color: #cccccc;
+  line-height: 1.4;
+}
+
+/* Button styling */
+.membership .btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #bb6cf1; /* purple button */
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.membership .btn:hover {
+  background-color: #9b4edb; /* slightly darker purple on hover */
+}
