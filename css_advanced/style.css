@@ -1,3 +1,104 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-color: lightblue;
+  font-family: Arial, sans-serif; /* Replace with Figma font */
+  color: white;
+  background-color: #000; /* fallback background */
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+/* Banner */
+.banner {
+  height: 100vh;
+  background: url('banner-bg.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.banner-content h1 {
+  font-size: 64px; /* match Figma */
+  font-weight: bold;
+}
+
+.tagline {
+  margin: 20px 0;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #C271FF; /* purple from screenshot */
+  padding: 15px 30px;
+  margin: 20px 0;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.subtext {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.subtext span {
+  color: #C271FF; /* purple accent */
+}
+
+/* Profiles */
+.profiles {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.profile p {
+  font-size: 14px;
 }
